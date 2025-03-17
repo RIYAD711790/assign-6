@@ -62,18 +62,7 @@ const displayDataDetail=(data)=>{
     
     `
 }
-//{
-//    "id": 101,
-//    "level_no": 1,
-//    "lessonName": "Basic Vocabulary"
-//}
-//{
-//    "id": 4,
-//    "level": 5,
-//    "word": "Diligent",
-//    "meaning": "পরিশ্রমী",
-//    "pronunciation": "ডিলিজেন্ট"
-//}
+
 
 
 //display data
@@ -94,10 +83,7 @@ for(let data of datas){
 //append
 
 }
-
-
 }
-
 //include loadDATA()
 const displayDATA=(DATAS)=>{
     const dataContainer=document.getElementById('DATA-container')
@@ -139,7 +125,7 @@ function checkAndHide() {
     let number = document.getElementById("inputNumber").value;
     let targetDiv = document.getElementById("targetDiv");
 
-    // শর্ত: ইনপুট সংখ্যা "123456" হলে div হাইড হবে
+    
     if (number === "123456") {
         alert('your are right')
         targetDiv.classList.add("hidden"); // TailwindCSS hidden ক্লাস ব্যবহার
